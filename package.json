@@ -5,7 +5,7 @@
     "description": "API Testing untuk reqres.in",
     "scripts": {
         "cobain": "mocha tests --recursive --timeout 60000",
-        "test-sesi7": "mocha tests/sesi-7/coba.test.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=hasil-tes.html"
+        "test-sesi7": "mocha tests/api/reqres.test.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=hasil-tes.html"
     },
     "dependencies": {
         "ajv": "^8.20.0",
